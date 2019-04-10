@@ -1,0 +1,197 @@
+{
+  "paths": [
+    {
+      "_path": "bin/example/index/22_20-21M_snp.1.ht2",
+      "path_type": "hardlink",
+      "sha256": "c18b2858e39ba481a2f4775cf26de7b3ccb6ff79ec9be19bdb29a236935da354",
+      "size_in_bytes": 4789374
+    },
+    {
+      "_path": "bin/example/index/22_20-21M_snp.2.ht2",
+      "path_type": "hardlink",
+      "sha256": "a695865a890c0cd5ded39b599112fe0d9ec5c020be7de0b7e00ee80bbfadf654",
+      "size_in_bytes": 238700
+    },
+    {
+      "_path": "bin/example/index/22_20-21M_snp.3.ht2",
+      "path_type": "hardlink",
+      "sha256": "c8e73c7cf37686c41dc790a893408f2c47b4b6b394bf6737de94d9bea7f462e3",
+      "size_in_bytes": 26
+    },
+    {
+      "_path": "bin/example/index/22_20-21M_snp.4.ht2",
+      "path_type": "hardlink",
+      "sha256": "37046f0ed0f53b595a0e6b97279aff49205b76557b62fcd583e6434fcebb396f",
+      "size_in_bytes": 225000
+    },
+    {
+      "_path": "bin/example/index/22_20-21M_snp.5.ht2",
+      "path_type": "hardlink",
+      "sha256": "8620274a1764dbe5c7b971533093286e5b8e7a3f8b37bb560eee0d37e9f1482d",
+      "size_in_bytes": 678405
+    },
+    {
+      "_path": "bin/example/index/22_20-21M_snp.6.ht2",
+      "path_type": "hardlink",
+      "sha256": "01732111c13c753e7a2f8b9f807578f902fc1e3aafa839073108bb661db919e2",
+      "size_in_bytes": 238590
+    },
+    {
+      "_path": "bin/example/index/22_20-21M_snp.7.ht2",
+      "path_type": "hardlink",
+      "sha256": "1fe5a4d35a582a7032e7445948ee93d0f50d98dc84870bb9977957930bd2b60b",
+      "size_in_bytes": 70048
+    },
+    {
+      "_path": "bin/example/index/22_20-21M_snp.8.ht2",
+      "path_type": "hardlink",
+      "sha256": "2f3f12cc4024dda55c183d8f3a05cf2ea2e9db1992de07cb2a044458a75e865f",
+      "size_in_bytes": 37688
+    },
+    {
+      "_path": "bin/example/reads/reads_1.fa",
+      "path_type": "hardlink",
+      "sha256": "7df0f806bd18c34d77a0e14ca75aa8bf9192f0c86696542b291b302ef5dd5e2e",
+      "size_in_bytes": 105893
+    },
+    {
+      "_path": "bin/example/reads/reads_2.fa",
+      "path_type": "hardlink",
+      "sha256": "2d4c3cd875f32756fe769958bf8620d750907bea73204f065bbc81418ade18c1",
+      "size_in_bytes": 105893
+    },
+    {
+      "_path": "bin/example/reference/22_20-21M.fa",
+      "path_type": "hardlink",
+      "sha256": "5f20f32cf4233e45f91ad3ca2e7928a8b6594040522fe4275b876856c1d9944d",
+      "size_in_bytes": 1016689
+    },
+    {
+      "_path": "bin/example/reference/22_20-21M.snp",
+      "path_type": "hardlink",
+      "sha256": "b7cc1336b2101775188641c369b05e9072883ccc832b703e9d39da513817792a",
+      "size_in_bytes": 167831
+    },
+    {
+      "_path": "bin/hisat2",
+      "path_type": "hardlink",
+      "sha256": "b636697e168b4d7bccebcf94d959fafa7bd0ed7117a0a4481bcaa45758bce023",
+      "size_in_bytes": 18055
+    },
+    {
+      "_path": "bin/hisat2-align-l",
+      "path_type": "hardlink",
+      "sha256": "22a1f0f65cf42dc49e687fc1780b3d802da9a39601f01e29e9acc5899fa26c75",
+      "size_in_bytes": 13399760
+    },
+    {
+      "_path": "bin/hisat2-align-s",
+      "path_type": "hardlink",
+      "sha256": "d82db0cc649ca9801af8ecdd8f1d273ade977b27f96c7c158561c0babb6119e9",
+      "size_in_bytes": 13332680
+    },
+    {
+      "_path": "bin/hisat2-build",
+      "path_type": "hardlink",
+      "sha256": "8d5b7e4b3c70d474a95149580cd7b73428b73d9070f7e1ce9f626f1448088c7a",
+      "size_in_bytes": 2807
+    },
+    {
+      "_path": "bin/hisat2-build-l",
+      "path_type": "hardlink",
+      "sha256": "2f17a55984dfca1d66d2040aebd6eaa34b9e7a91faf98906b1675d5057fabedd",
+      "size_in_bytes": 4794672
+    },
+    {
+      "_path": "bin/hisat2-build-s",
+      "path_type": "hardlink",
+      "sha256": "1e41727a8e053fa5a76b86265d58376bcaafc9f8a0c62becdc3c14981b6a91d4",
+      "size_in_bytes": 4685768
+    },
+    {
+      "_path": "bin/hisat2-inspect",
+      "path_type": "hardlink",
+      "sha256": "7cd6fc659b84c7e6277f5e1e903f43062355dc62d578331c39fd1a7e6172cb6a",
+      "size_in_bytes": 2397
+    },
+    {
+      "_path": "bin/hisat2-inspect-l",
+      "path_type": "hardlink",
+      "sha256": "7b25ccba6f7553ba5b236d95426838ffcbc1060b4da31353b0e89715c883dfd8",
+      "size_in_bytes": 2749400
+    },
+    {
+      "_path": "bin/hisat2-inspect-s",
+      "path_type": "hardlink",
+      "sha256": "51cc39a24e085e6d4b3d90df6922e9493336f4f8fe9a08fc1773aedd6799a554",
+      "size_in_bytes": 2768640
+    },
+    {
+      "_path": "bin/hisat2_extract_exons.py",
+      "path_type": "hardlink",
+      "sha256": "76c472e9cef501eb85eec4c0c4602c3fc7c132d27d1b55ebc4552f4f43f67f7a",
+      "size_in_bytes": 5572
+    },
+    {
+      "_path": "bin/hisat2_extract_snps_haplotypes_UCSC.py",
+      "path_type": "hardlink",
+      "sha256": "c0473f43abfa1d80492c6aad9be8a85f7442bfa1560f187589582016040511cc",
+      "size_in_bytes": 19250
+    },
+    {
+      "_path": "bin/hisat2_extract_snps_haplotypes_VCF.py",
+      "path_type": "hardlink",
+      "sha256": "d923d43202edd80562defd1cb7d75bd7ba0790684703759b4e5ea9d595f3270c",
+      "size_in_bytes": 33707
+    },
+    {
+      "_path": "bin/hisat2_extract_splice_sites.py",
+      "path_type": "hardlink",
+      "sha256": "ffcbee0fc6ca281be1d5f240d7073bbc17de4b7b31622624b14e59b74b017547",
+      "size_in_bytes": 5008
+    },
+    {
+      "_path": "bin/hisat2_simulate_reads.py",
+      "path_type": "hardlink",
+      "sha256": "5bbbd917b7403c87f9961bcb3c974caf87a6888abe2c4181ec643ea6758f7eca",
+      "size_in_bytes": 32844
+    },
+    {
+      "_path": "bin/hisatgenotype.py",
+      "path_type": "hardlink",
+      "sha256": "26a32abce6ae9591771b46fac246f55844b5ba065bb0c475c8567307baac6446",
+      "size_in_bytes": 18277
+    },
+    {
+      "_path": "bin/hisatgenotype_build_genome.py",
+      "path_type": "hardlink",
+      "sha256": "e0f14a554f2e1719290c613dcab2bd899ba94f98e08469588e4d5180db42ae4d",
+      "size_in_bytes": 19201
+    },
+    {
+      "_path": "bin/hisatgenotype_extract_reads.py",
+      "path_type": "hardlink",
+      "sha256": "3b05b194d8f0dd01949b67ccc1464e33d862822abcbd3ad269f648719e5fec70",
+      "size_in_bytes": 16591
+    },
+    {
+      "_path": "bin/hisatgenotype_extract_vars.py",
+      "path_type": "hardlink",
+      "sha256": "3b57c2eac8e3e45ade3fcd658b26f75d91c9a2cc8d10f12490f5b6cfc836c2e9",
+      "size_in_bytes": 51630
+    },
+    {
+      "_path": "bin/hisatgenotype_hla_cyp.py",
+      "path_type": "hardlink",
+      "sha256": "52c75c5441f86335a3e9577eb79650050e879d28202dce60d9ec60366a94d7ab",
+      "size_in_bytes": 74062
+    },
+    {
+      "_path": "bin/hisatgenotype_locus.py",
+      "path_type": "hardlink",
+      "sha256": "45ee4d1d2e038a96af016299389bfcbb4f8aad1e1835b3d4ffe3c3849e0649b2",
+      "size_in_bytes": 107904
+    }
+  ],
+  "paths_version": 1
+}

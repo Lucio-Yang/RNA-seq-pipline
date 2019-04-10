@@ -1,0 +1,50 @@
+#!/usr/bin/bash
+
+path=$(pwd)
+hisat2_name='hisat2-2.1.0-py36h2d50403_1'
+
+
+
+echo "########################################################"
+echo "###################### hisat2 ##########################"
+echo "export PATH=$PATH:$hisat2_path/software/$hisat2_name/bin"
+echo "####################### end ############################"
+
+
+
+#bedtools_path=$(pwd)
+bedtools_name='bedtools/bedtools-2.17.0'
+
+echo "##############################################################"
+echo "######################## bedtools ############################"
+echo "export PATH=$PATH:$bedtools_path/software/$bedtools_name/bin/"
+echo "########################### end ##############################"
+
+
+
+#htseq_path=$(pwd)
+htseq_name='htseq'
+
+
+echo "###########################################################"
+echo "###################### htseq ##############################"
+echo "export PATH=$PATH:$htseq_path/software/$htseq_name/python3/scripts"
+echo "###################### end ################################"
+
+#samtools_path=$(pwd)
+samtools_name='samtools-0.1.19/samtools-0.1.19'
+
+echo "###########################################################"
+echo "#################### samtools #############################"
+echo "export PATH=$PATH:$samtools_path/software/$samtools_name"
+echo "###################### end ################################"
+
+#sratoolkit_path=$(pwd)
+sratoolkit_name='sratoolkit.2.9.1-centos_linux64'
+
+echo "#######################################################"
+echo "#################### sratoolkit #######################"
+echo "export PATH=$PATH:$path/software/$sratoolkit_name/bin"
+echo "######################## end ##########################"
+
+exit 0

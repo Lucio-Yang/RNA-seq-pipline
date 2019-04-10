@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py36h2d50403_1",
+  "build_number": 1,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libstdcxx-ng >=4.9",
+    "perl",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "features": "",
+  "fn": "hisat2-2.1.0-py36h2d50403_1.tar.bz2",
+  "license": "GPLv3",
+  "md5": "4ff8910790b1e684b00e1cf571fa5983",
+  "name": "hisat2",
+  "platform": "linux",
+  "size": 16949425,
+  "subdir": "linux-64",
+  "timestamp": 1531431646446,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64/hisat2-2.1.0-py36h2d50403_1.tar.bz2",
+  "version": "2.1.0"
+}

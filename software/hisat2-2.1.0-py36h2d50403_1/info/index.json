@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py36h2d50403_1",
+  "build_number": 1,
+  "depends": [
+    "libstdcxx-ng >=4.9",
+    "perl",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "GPLv3",
+  "name": "hisat2",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1531431646446,
+  "version": "2.1.0"
+}
