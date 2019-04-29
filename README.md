@@ -19,4 +19,4 @@ trimmomatic V 0.38
 
 SPRINT  V.1.8/V.1.7
 
-htseq
+Stringtie
