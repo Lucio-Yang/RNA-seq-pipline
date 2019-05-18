@@ -101,7 +101,7 @@ def main():
 if len(sys.argv)<2:
     print(help.__doc__)
 
-if __name__ == 'main':	
+if __name__ == '__main__':	
     try:
         main()
     except OSError as reason:
