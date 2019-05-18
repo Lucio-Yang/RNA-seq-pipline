@@ -6,7 +6,7 @@ args=sys.argv
 
 def help():
     '''
-    ##############################################################################################
+    ##################################################################################################
 	
         Hisat2 + Sam2Bam + Bam2Sort + Stringtie(Htseq) + RNA-edit + Bedtools
 	
@@ -17,17 +17,17 @@ def help():
 	
         Please contact drbiology@aliyun.com when questions arise.
 	
-    ##############################################################################################
+    ##################################################################################################
 	
-        Usage:
+      Usage:
 	
-            python banana.py id(fastq_id) reference_genome(.fa) fastq_path gtf_path outfile_path
+        python transcriptome.py id(fastq_id) reference_genome(.fa) fastq_path gtf_path outfile_path
 	
-	Example:
+      Example:
 	
-            python hisat.py ID /home/ref_genome/<>.fa /home/fastq_data/ /home/<>.gtf /home/result
+        python transcriptome.py ID /home/ref_genome/<>.fa /home/fastq_data/ /home/<>.gtf /home/result
     
-    ##############################################################################################
+    ##################################################################################################
 	
     '''
 
@@ -43,12 +43,11 @@ def main():
 	
     index=args[2]
     fqdir=args[3]
-	
+    gtf=args[4]
+
     rna_edit_path='Rna-edit'
     sp='/home/software/SPRINT/bin/sprint_from_bam'
     samtools_path='/home/software/SPRINT/samtools_and_bwa/samtools'	### samtools of SPRINT
-	
-    gtf=args[4]
 	
     def hisat2(index,fqdir,sample_id):        ### used '-U {1}/{2}_1.p.fq' for single-ended
         return os.system('hisat2 -x {0} \
@@ -85,17 +84,14 @@ def main():
             -b {0} \
             -wb >{1}_edit_annotation'.format(gtf,line))
 	
-    f=open(args[1],'r')
     old_path=os.getcwd()
     path=args[5]+'/'
 		
-    for line in f:
+    for line in open(args[1],'r'):
         line=line.replace('\n','');sample_id = line
         os.chdir(path); os.makedirs(path+line); os.chdir(path+line)	### Create working directory and enter it
-        hisat2(index,fqdir,sample_id)
-        samtools(sample_id)
-        stringtie(sample_id,gtf)
-        htseq(sample_id,gtf)
+        hisat2(index,fqdir,sample_id); samtools(sample_id)
+        stringtie(sample_id,gtf); htseq(sample_id,gtf)
         sprint(sp,sample_id,index,rna_edit_path,samtools_path)
         os.chdir(rna_edit_path);bedtools(gtf,line)
         os.chdir(old_path)
@@ -104,7 +100,6 @@ def main():
 		
 if len(sys.argv)<2:
     print(help.__doc__)
-
 
 if __name__ == 'main':	
     try:
@@ -115,5 +110,4 @@ if __name__ == 'main':
         print('Please input correct files. {0}'.format(reason))
 	
 # print("Life is short, python is shore")
-
 
